@@ -1,7 +1,6 @@
 :root {
-  --color-dark: #1d1d1d;
+  --color-dark: #1c1c1c;
   --color-light: #ffffff;
-  --color-gold: #c7b8a5;
 }
 
 * { 
@@ -48,4 +47,23 @@ ion-icon {
 
 .navbar {
   min-height: 5rem;
+}
+
+.border-right {
+  border-right: 1px solid rgba(256, 256, 256, 0.3) !important;
+}
+
+@media (max-width: 991.98px) {
+  .content {
+    padding: 3rem 0;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .sideways {
+    margin: 2rem 0;
+  }
+  .lead-xl {
+    font-size: 1.2rem;
+  }
 }
